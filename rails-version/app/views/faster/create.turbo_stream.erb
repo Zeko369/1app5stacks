@@ -1,0 +1,2 @@
+<%= turbo_stream.replace "battle", partial: "battlefield", locals: { pokemon_pair: @pokemon_pair } %>
+<%= turbo_stream.replace "next", partial: "battlefield", locals: { pokemon_pair: @next_pair, frame_id: 'next' } %>
